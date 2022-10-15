@@ -231,8 +231,11 @@ footer h3{
         top: 4vh;
         left: 14vw;
     }
-    #obakeimage{
+    .homedecoimage{
         width: 60vw;
         height: 45vw;
+    }
+    .homeboxes{
+        height: 275vw;
     }
 }
