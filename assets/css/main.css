@@ -1,0 +1,238 @@
+@charset "utf-8";
+
+body{
+    -webkit-text-size-adjust: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.normalbody{
+    background-color: #ddd58e;
+}
+.moviebody{
+    background-color: hsl(355, 93%, 80%);
+    /*f95a66 66%*/
+}
+.theaterbody{
+    background-color: hsl(60, 100%, 76%);
+    /*ffff3c 62%*/
+}
+.dasshutsubody{
+    background-color: hsl(11, 100%, 90%);
+    background-image: url(../image/blastback.png);
+    background-position: center center;
+    background-size: cover;
+    /*ea2c00 46%*/
+}
+.obakebody{
+    background-color: hsl(239, 100%, 91%);
+    /*8a8bff 77%*/
+}
+.honbun {
+    color:black;
+    font-size:20px;
+    text-align: center;
+}
+.subtitle{
+    font-size: 40px;
+    color:black;
+    text-align: center;
+    font-family: "UD デジタル 教科書体 NP-B";
+    line-height: 50px;
+}
+.menu-bar{
+    height: 60px;
+}
+.menu-bar li{
+    list-style: none;
+    display: inline-block;
+    float: right;
+}
+#thispage a{
+    background-color: #bfbfbf;
+}
+header{
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    height: 60px;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+header .title{
+    position: relative;
+    transform: translateY(-70px);
+    width: 400px;
+    height: 30px;
+    padding-left: 2vw;
+    z-index: 10;
+}
+.title h1{
+    text-align: left;
+    top: 0;
+    line-height: 20px;
+    font-size: 24px;
+    color: red;
+    display: inline;
+}
+.title h2{
+    top: 0;
+    line-height: 20px;
+    font-size: 24px;
+    color: black;
+    display: inline;
+}
+#twitterbird{
+    width: 30px;
+    height: 25px;
+    margin-right: 30px;
+    margin-top: 2px;
+    cursor: pointer;
+    z-index: 1001;
+}
+main{
+    margin-top: 60px;
+    z-index: 1;
+}
+.menubutton{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    margin-right: 4vw;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1001;
+}
+.menubutton .bar1,.menubutton .bar2,.menubutton .bar3{
+    height: 6px;
+    width: 100%;
+    display: block;
+    background-color: black;
+    transition: all .2s;
+}
+.menubutton .bar2,.menubutton .bar3{
+    margin-top: 6px;
+}
+.menubutton.active .bar1{
+    -webkit-transform: translateY(12px) rotate(45deg);
+    transform: translateY(12px) rotate(45deg);
+}
+.menubutton.active .bar2{
+    display: none;
+}
+.menubutton.active .bar3{
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+nav{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 999;
+}
+.openmenu{
+    list-style: none;
+    width: 80vw;
+    height: 80vh;
+    margin-top: 15vh;
+    margin-left: 10vw;
+    padding-left: 0;
+}
+.menuoptions{
+    position: relative;
+    width: 80vw;
+    height: 8vh;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    z-index: 100;
+}
+.menuoptions a{
+    width: 80vw;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.menuoptions a:hover{
+    background-color: #bfbfbf;
+    transition: 0.3s;
+}
+.homeboxes{
+    width: 100%;
+    height: 68vw;
+}
+.homebox{
+    padding: 1vh 2vw;
+    margin: 2vh 2vw;
+    color: #5989cf;
+    background: #c6e4ff;
+    border-bottom: solid 6px #aac5de;
+    border-radius: 9px;
+    width: 28vw;
+    height: 28vw;
+    position: relative;
+    float: left;
+}
+.homebox:hover{
+    background: #86c6ff;
+    border-bottom: solid 6px #6aa4db;
+}
+.homebox p {
+    margin: 0; 
+    padding: 0;
+}
+.homebox .Link{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+#deco1box,#deco3box{
+    left: 12vw;
+}
+#deco3box,#deco4box{
+    top: 2vw;
+}
+#deco2box,#deco4box{
+    left: 14vw;
+}
+.homedecoimage{
+    width: 28vw;
+    height: 21vw;
+}
+footer{
+    text-align: center;
+    background-color: red;
+    color: white;
+    width: 100%;
+}
+footer h3{
+    margin-bottom: 0;
+}
+@media screen and (max-width: 800px){
+    .homebox{
+        width: 60vw;
+        height: 60vw;
+        float: none;
+        margin-top: 4vh;
+    }
+    #deco1box,#deco2box,#deco3box,#deco4box{
+        top: 4vh;
+        left: 14vw;
+    }
+    #obakeimage{
+        width: 60vw;
+        height: 45vw;
+    }
+}
