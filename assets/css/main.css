@@ -12,23 +12,20 @@ body{
     /*f95a66 66%*/
 }
 .theaterbody{
-    background-color: hsl(60, 100%, 76%);
+    background-color: hsl(182, 100%, 85%);
     /*ffff3c 62%*/
 }
 .dasshutsubody{
     background-color: hsl(11, 100%, 90%);
-    background-image: url(../image/blastback.png);
-    background-position: center center;
-    background-size: cover;
     /*ea2c00 46%*/
 }
 .obakebody{
     background-color: hsl(239, 100%, 91%);
     /*8a8bff 77%*/
 }
-.honbun {
-    color:black;
-    font-size:20px;
+.honbun{
+    color: black;
+    font-size: 20px;
     text-align: center;
 }
 .subtitle{
@@ -61,7 +58,7 @@ header{
 header .title{
     position: relative;
     transform: translateY(-70px);
-    width: 400px;
+    width: 600px;
     height: 30px;
     padding-left: 2vw;
     z-index: 10;
@@ -84,7 +81,6 @@ header .title{
 #twitterbird{
     width: 30px;
     height: 25px;
-    margin-right: 30px;
     margin-top: 2px;
     cursor: pointer;
     z-index: 1001;
@@ -92,12 +88,15 @@ header .title{
 main{
     margin-top: 60px;
     z-index: 1;
+    width: 80%;
+    margin-left: 10%;
 }
 .menubutton{
     position: relative;
     height: 30px;
     width: 30px;
     margin-right: 4vw;
+    margin-left: 30px;
     align-items: center;
     cursor: pointer;
     z-index: 1001;
@@ -171,7 +170,8 @@ nav{
 .homebox{
     padding: 1vh 2vw;
     margin: 2vh 2vw;
-    color: #5989cf;
+    color: black;
+    font-size: 20px;
     background: #c6e4ff;
     border-bottom: solid 6px #aac5de;
     border-radius: 9px;
@@ -179,6 +179,7 @@ nav{
     height: 28vw;
     position: relative;
     float: left;
+    text-align: center;
 }
 .homebox:hover{
     background: #86c6ff;
@@ -198,13 +199,13 @@ nav{
     cursor: pointer;
 }
 #deco1box,#deco3box{
-    left: 12vw;
+    left: 2vw;
 }
 #deco3box,#deco4box{
     top: 2vw;
 }
 #deco2box,#deco4box{
-    left: 14vw;
+    left: 4vw;
 }
 .homedecoimage{
     width: 28vw;
@@ -219,6 +220,31 @@ footer{
 }
 footer h3{
     margin-bottom: 0;
+}
+.blog{
+    list-style: none;
+    width: 90%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 5%
+    padding-left: 0;
+}
+.blogarticle{
+    width: 90%;
+    height: 100px;
+    padding: 5px 5% 5px 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px dashed blue;
+    border-radius: 10px;
+    background-color: white;
+}
+.blogarticle h1{
+    font-size: 20px;
+}
+.topimage{
+    margin-left: 20%;
+    width: 60%;
 }
 @media screen and (max-width: 800px){
     .homebox{
