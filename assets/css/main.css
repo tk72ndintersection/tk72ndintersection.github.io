@@ -35,6 +35,11 @@ body{
     font-family: "UD デジタル 教科書体 NP-B";
     line-height: 50px;
 }
+.jyunbi{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(90, 90, 90);
+}
 .menu-bar{
     height: 60px;
 }
@@ -213,20 +218,21 @@ nav{
 }
 footer{
     text-align: center;
-    background-color: red;
+    background-color: rgb(73, 9, 110);
     color: white;
     width: 100%;
-    height: 30vh;
+    height: 300px;
 }
 footer h3{
     margin-bottom: 0;
+    font-size: 30px;
 }
 .blog{
     list-style: none;
     width: 90%;
     height: 400px;
     margin-top: 20px;
-    margin-left: 5%
+    margin-left: 5%;
     padding-left: 0;
 }
 .blogarticle{
@@ -245,6 +251,17 @@ footer h3{
 .topimage{
     margin-left: 20%;
     width: 60%;
+}
+.intersectionimage{
+    margin-top: 20px;
+}
+.footertwiimg{
+    margin-top: 40px;
+    width: 40px;
+    height: 40px;
+}
+.casts{
+    text-align: center;
 }
 @media screen and (max-width: 800px){
     .homebox{
