@@ -264,6 +264,12 @@ footer h3{
 .casts{
     text-align: center;
 }
+.center{
+    text-align: center;
+    font-size: 20px;
+}
+.hint11menu,.hint12menu,.hint13menu,.hint14menu,.hint15menu,.hint21menu,.hint22menu ,.hint23menu ,.hint24menu, .hint31menu, .hint32menu ,.hint33menu, .hint34menu ,.hint35menu, .hint36menu ,.hint37menu,.hint41menu, .hint42menu ,.hint43menu ,.hint44menu ,.hint45menu{cursor: pointer;}
+.hint11ans ,.hint12ans, .hint13ans ,.hint14ans, .hint15ans ,.hint21ans ,.hint22ans ,.hint23ans ,.hint24ans ,.hint31ans ,.hint32ans, .hint33ans, .hint34ans, .hint35ans, .hint36ans ,.hint37ans ,.hint41ans ,.hint42ans, .hint43ans ,.hint44ans ,.hint45ans{display: none;}
 @media screen and (max-width: 800px){
     .homebox{
         width: 60vw;
